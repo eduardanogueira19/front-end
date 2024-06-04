@@ -1,10 +1,11 @@
 body{
-    background-color: #d0e4fe;
+    background-color: #d0e4ff;
 }
 hr{
     border-top: 3px solid #171717;
+    margin: 0%;
 }
-h1, h3{
+h1, h2{
     text-align: center;
     margin: 0 auto;
     color: #06066b;
@@ -26,4 +27,12 @@ td{
     padding: 10px;
     border: 1px solid black;
 
+}
+div{
+    background-color: #06066b;
+    padding: 2px;
+}
+.aula
+{
+    color: #d0e4ff;
 }

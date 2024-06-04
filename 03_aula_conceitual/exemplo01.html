@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo 01</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Exemplo 01</h1>
     <h2>Formulário:</h2>
     <hr>
     <form action="pagina.php"method"post" target="_blank" accept-charset="UTF-8859" enctype="application/x-www-form-urlencoded"autocomplete="off"novalidate>
-    <p><button type="submit">Enviar</button></p>
     <p><label>Procurar <input type="search" name="pesquisa"></label></p>
     <p><button type="submit">Enviar</button></p>
     <p><label>Horário do Evento <input type=""name="horario"></label></p>
@@ -21,7 +21,7 @@
         <option value="Item 3"> Item 3</option>
         <option value="Item 4"> Item 4</option> </select>
     <p><button type="submit">Enviar </button></p>
-    <p>Caixa de Texto<textarea name="mensagem"rows="10" cols="30">Digite seu texto aqui!</textarea></p>
+    <p>Caixa de Texto<br><textarea name="mensagem"rows="10" cols="30">Digite seu texto aqui!</textarea></p>
     <p>Escolha o navegador preferido<input list="navegador"> <datalist id="navegador">
         <option value="Microsoft Edge">
         <option value="Firefox">
